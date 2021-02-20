@@ -1,5 +1,6 @@
 import React from 'react';
 import Lesson from './Lesson';
+import ContactForm from './ContactForm';
 
 class Main extends React.Component {
   render() {
@@ -31,7 +32,7 @@ class Main extends React.Component {
         <div className='main'>
           <div className='copy-container'>
             <h1>Hello, World.</h1>
-            <h2>Selamat datang didunia pemrograman!</h2>
+            <h2>Selamat datang di dunia pemrograman!</h2>
           </div>
           <div className='lesson-container'>
             <h3>Pelajaran</h3>
@@ -43,7 +44,11 @@ class Main extends React.Component {
                   introduction={lessonItem.introduction}
                 />
               );
-            })}
+            }) }
+          </div>
+          <div className='contact-container'>
+            <h3>Hubungi Kami</h3>
+            <ContactForm />
           </div>
         </div>
       </div>
