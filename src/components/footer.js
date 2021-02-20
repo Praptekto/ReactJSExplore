@@ -9,11 +9,11 @@ class Footer extends React.Component {
             <img src='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/type_logo.png' />
             <p>Learn to code, learn to creative.</p>
           </div>
-          <ul className='footer-list'>
+          {/* <ul className='footer-list'>
             <li>PELAYANAN</li>
             <li>BANTUAN</li>
             <li>HUBUNGI KAMI</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     );
