@@ -6,7 +6,7 @@ class Lesson extends React.Component {
     this.state = {isModalOpen: false};
   }
 
-  handleClickLesson() {
+handleClickLesson() {
     this.setState({isModalOpen: true});
   }
   
