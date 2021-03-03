@@ -2,6 +2,7 @@ import React from 'react';
 import {Clock} from './clock.js';
 class Header extends React.Component {
   render() {
+
     return (
       <div className='header'>
         <div className='header-logo'>
@@ -9,7 +10,7 @@ class Header extends React.Component {
         </div>
         <div>
           <Clock/>
-        </div>
+        </div>        
       </div>
     );
   }
