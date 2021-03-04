@@ -49,19 +49,16 @@ export default function  CobaReducer2() {
     }
    return(
        <>
-        <form onSubmit={handleSubmit}>
-            <input type="text" value={name} onChange={(e)=>{
-                return setName(e.target.value)
-            }}/>
-        </form>
-        {
-            todos.map(todo=>{
-                return <Todo key={todo.id} todo={todo} dispatch={dispatch}/>
-            })
-        }
-
-        {/* print todo */}
-        {/* <Todo/> */}
+            <form onSubmit={handleSubmit}>
+                <input type="text" value={name} onChange={(e)=>{
+                    return setName(e.target.value)
+                }}/>
+            </form>
+            {
+                todos.map(todo=>{
+                    return <Todo key={todo.id} todo={todo} dispatch={dispatch}/>
+                })
+            }     
         
        </>
    )
